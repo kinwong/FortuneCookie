@@ -5,9 +5,7 @@ import tensorflow as tf
 
 
 def test():
-    """
-    what do you want.
-    """
+    """ Test a tesorflow session """
     sess = tf.Session()
     first = tf.constant(4)
     second = tf.constant(5)
