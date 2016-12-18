@@ -7,6 +7,7 @@ class Broker(object):
 
     @abstractmethod
     def get_orders(self):
+        """ ffewff """
         pass
 
 
