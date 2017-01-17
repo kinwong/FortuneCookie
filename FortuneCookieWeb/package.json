@@ -11,7 +11,7 @@
     },
     "scripts": {
         "test": "vows --spec --isolate",
-        "start": "node index.js",
+        "start": "node app/main.ts",
         "predeploy": "echo im about to deploy",
         "postdeploy": "echo ive deployed",
         "prepublish": "coffee --bare --compile --output lib/foo src/foo/*.coffee"

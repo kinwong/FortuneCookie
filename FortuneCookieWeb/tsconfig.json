@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "watch": true,
+        "moduleResolution": "node",
+        "target": "es6",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": false,
+        "experimentalDecorators": true
+    }
+}
