@@ -1,0 +1,46 @@
+{
+    "name": "@fortunecookie/web",
+    "version": "10.3.1",
+    "description": "An example module to illustrate the usage of a package.json",
+    "author": "Kin Wong",
+    "contributors": [
+        "Foo Bar <foo.bar@example.com>"
+    ],
+    "bin": {
+        "module-name": "./bin/module-name"
+    },
+    "scripts": {
+        "test": "vows --spec --isolate",
+        "start": "node index.js",
+        "predeploy": "echo im about to deploy",
+        "postdeploy": "echo ive deployed",
+        "prepublish": "coffee --bare --compile --output lib/foo src/foo/*.coffee"
+    },
+    "main": "lib/foo.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nodejitsu/browsenpm.org.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+    },
+    "keywords": [
+        "nodejitsu",
+        "example",
+        "browsenpm"
+    ],
+    "dependencies": {
+        "angular/common": "*",
+        "angular/core": "*"
+    },
+    "devDependencies": {},
+    "preferGlobal": true,
+    "private": true,
+    "publishConfig": {
+        "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
+    },
+    "subdomain": "foobar",
+    "analyze": true,
+    "license": "MIT",
+    "homepage": "https://github.com/nodejitsu/browsenpm.org#readme"
+}
