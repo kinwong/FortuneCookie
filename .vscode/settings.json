@@ -6,6 +6,9 @@
     // Excludes typescript artifacts.
     "files.exclude": {
         "FortuneCookieWeb/**/*.js.map": true,
-        "FortuneCookieWeb/**/*.js": true
-    }
+        "FortuneCookieWeb/**/*.js": { "when": "$(basename).ts" }
+
+    },
+    // Typescript
+    "typescript.tsdk": "FortuneCookieWeb/node_modules/typescript/lib"
 }
