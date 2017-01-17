@@ -1,7 +1,7 @@
 {
     "name": "@fortunecookie/web",
     "version": "10.3.1",
-    "description": "An example module to illustrate the usage of a package.json",
+    "description": "Test of Angular js.",
     "author": "Kin Wong",
     "contributors": [
         "Foo Bar <foo.bar@example.com>"
@@ -30,8 +30,19 @@
         "browsenpm"
     ],
     "dependencies": {
-        "angular/common": "*",
-        "angular/core": "*"
+        "@angular/common": "~2.4.0",
+        "@angular/compiler": "~2.4.0",
+        "@angular/core": "~2.4.0",
+        "@angular/forms": "~2.4.0",
+        "@angular/http": "~2.4.0",
+        "@angular/platform-browser": "~2.4.0",
+        "@angular/platform-browser-dynamic": "~2.4.0",
+        "@angular/router": "~3.4.0",
+        "angular-in-memory-web-api": "~0.2.4",
+        "systemjs": "0.19.40",
+        "core-js": "^2.4.1",
+        "rxjs": "5.0.1",
+        "zone.js": "^0.7.4"
     },
     "devDependencies": {},
     "preferGlobal": true,
